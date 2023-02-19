@@ -7,10 +7,10 @@ function Header({interns, order, changeList}) {
         <div className = "header">
             <h2>Internify</h2>
             <div className = "search">
-                <label >Filter:</label> 
+                <label >Sort by:</label> 
                 <select onChange = {changeList} defaultValue ={order} className = "search-bar">
-                    <option value="asc">Highest SCore</option>
-                    <option value="desc">Lowest Score</option>
+                    <option value="asc">Highest to Lowest Score</option>
+                    <option value="desc">Lowest to Highest Score</option>
                  </select>
             </div>
             

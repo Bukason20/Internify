@@ -121,24 +121,39 @@ body {
 
 .profile-wrapper h1{
   text-align: center;
-  margin: 40px 0;
+  margin: 30px 0 60px;
 }
 
-.currnetIntern-info{
-  display: flex;
-  gap: 8rem;
-  align-items: center;
+.container{
   background-color: white;
+  width: 70%;
+  margin: 20px auto;
   border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.currentIntern.container{
   overflow: visible;
   width: 70%;
   margin: auto;
-  font-size: 1.5rem;
+  font-size: 1.4rem;
   font-weight: 600;
-  padding: 0 80px 0 40px;
+  padding: 0 20px 0 40px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  letter-spacing: 0.09rem;
 }
-.currnetIntern-info img{
+.currentIntern-id{
+  display: flex;
+  align-items: center;
+  gap: 5rem;
+  overflow: visible;
+}
+.currentIntern-id p{
+  margin-bottom: 10px;
+}
+.currentIntern-id img{
   height: 180px;
   aspect-ratio: 1/1;
   border-radius: 6px;
@@ -159,17 +174,12 @@ body {
   display: block;
   width: fit-content;
 }
-
-.container{
-  background-color: white;
-  width: 70%;
-  margin: 20px auto;
-  border-radius: 8px;
-  padding: 20px;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  font-family:Georgia, 'Times New Roman', Times, serif;
-}
 .container h4{
   margin-bottom: 1rem;
+}
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 

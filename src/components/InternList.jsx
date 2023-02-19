@@ -1,7 +1,8 @@
 import { useState } from "react"
-import {FaUser, FaStar, FaSubway} from "react-icons/fa"
+import {FaUser, FaStar, FaSubway, FaRoad} from "react-icons/fa"
 import {BsFillFileSpreadsheetFill} from "react-icons/bs"
 import {AiOutlineMail} from "react-icons/ai"
+import {GiRailRoad} from "react-icons/gi"
 import { Link } from "react-router-dom"
 
 
@@ -33,7 +34,7 @@ function InternList({interns}) {
                         </th>
                         <th>
                             <div className = "thead">
-                                <FaSubway />
+                                <FaRoad />
                                 <p>Track</p>
                             </div>
                         </th>

@@ -1,6 +1,8 @@
 import { Link, useParams } from "react-router-dom"
-import {FaLessThan} from "react-icons/fa"
-import InternList from "./InternList";
+import {FaRoad} from "react-icons/fa"
+import {BsTelephoneFill, BsFillPersonFill} from "react-icons/bs"
+import {AiFillMail} from "react-icons/ai"
+import {GiTeacher} from "react-icons/gi"
 import{useEffect, useState} from 'react'
 
 function InternProfile({interns}) {
@@ -24,34 +26,53 @@ function InternProfile({interns}) {
     console.log(currentIntern)
     return (
         <div className = "profile-wrapper">
-            <Link to ="/" id = "home">Home</Link> 
-            <h1>Student Profile</h1>
-            <div className="currnetIntern-info">
-                <img src={currentIntern.img} alt="" id = "profile-img"/>
-                <div className="currnetIntern-name">
-                    <p>Name: {currentIntern.name}</p>
-                    <p>Total Score: {currentIntern.totalScore}</p>
+            <Link to ="/" id = "home">Back</Link> 
+            <h1>Intern Profile</h1>
+            <div className = "currentIntern container flex">
+                <div className="currentIntern-id">
+                    <img src={currentIntern.img} alt="" id = "profile-img"/>
+                    <div>
+                        <p>Name: {currentIntern.name}</p>
+                        <p>Total Score: {currentIntern.totalScore}</p>
+                    </div>
+                    
                 </div>
+
+                <BsFillPersonFill size = "20" />
             </div>
 
-            <div className="currnetIntern-no container">
-                <h4>Telephone:</h4>
-                <p>08033099645</p>
+            <div className="currnetIntern-no container flex">
+                <div>
+                    <h4>Telephone:</h4>
+                    <p>08033099645</p>
+                </div>
+                <BsTelephoneFill size = "20"/>
+                
             </div>
 
-            <div className="currnetIntern-email container">
-                <h4>Email:</h4>
-                <p>{currentIntern.email}</p>
+            <div className="currnetIntern-email container flex">
+                <div>
+                    <h4>Email:</h4>
+                    <p>{currentIntern.email}</p>
+                </div>
+                <AiFillMail size = "20"/>
             </div>
 
-            <div className="currnetIntern-track container">
-                <h4>Track:</h4>
-                <p>{currentIntern.track}</p>
+            <div className="currnetIntern-track container flex">
+                <div>
+                    <h4>Track:</h4>
+                    <p>{currentIntern.track}</p>
+                </div>
+                <FaRoad size = "20"/>
+                
             </div>
 
-            <div className="currnetIntern-group container">
-                <h4>Mentorship Group:</h4>
-                <p>{currentIntern.group}</p>
+            <div className="currnetIntern-group container flex">
+                <div>
+                    <h4>Mentorship Group:</h4>
+                    <p>{currentIntern.group}</p>
+                </div>
+                <GiTeacher size = "25" />
             </div>
             
 
