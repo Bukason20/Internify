@@ -24,7 +24,7 @@ function InternProfile({interns}) {
     console.log(currentIntern)
     return (
         <div className = "profile-wrapper">
-            <p id="home"><Link to ="/">Home</Link> </p>
+            <Link to ="/" id = "home">Home</Link> 
             <h1>Student Profile</h1>
             <div className="currnetIntern-info">
                 <img src={currentIntern.img} alt="" id = "profile-img"/>
