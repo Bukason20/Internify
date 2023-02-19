@@ -1,0 +1,165 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+body {
+  
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  background-color: #f2f2f2;
+}
+
+/* ------------------------------------------HEADER COMPONENT----------------------------------------- */
+.header{
+  display: flex;
+  padding: 30px 50px;
+  background-color: rgb(57, 73, 89);
+  color: white;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+.search-bar{
+  border: none;
+  outline: none;
+  margin-left: 0.5rem;
+}
+
+/* --------------------------------------INTERN LIST COMPONENT------------------------ */
+#intern-list {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 90%;
+  margin: 10px auto 30px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.thead{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+#intern-list td, #intern-list th {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+  width: fit-content;
+  color: rgb(57, 73, 89);
+}
+
+#intern-list tr:nth-child(even){
+  background-color: #f2f2f2;
+}
+#intern-list tr:nth-child(odd){
+  background-color: white;
+}
+#intern-list tr:hover {
+  background-color: #ddd;
+}
+
+#intern-list th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  background-color: #f2f2f2;
+  color: black;
+  background-color: rgb(57, 73, 89);
+  color: white;
+}
+
+.person{
+  display: flex;
+  align-items: center;
+  gap: 4rem;
+
+}
+
+#intern-img{
+  width: 60px;
+  aspect-ratio: 1/1;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid rgb(57, 73, 89);
+}
+.intern-track{
+  width: fit-content;
+  margin: auto;
+  padding: 5px 10px;
+  border-radius: 20px;
+}
+.frontend {
+  color: rgb(74, 137, 110)  !important;
+  background-color: rgb(235, 255, 244);
+}
+
+.web3{
+  color: rgb(111, 97, 146);
+  background-color: rgb(230, 222, 252);
+}
+.backend{
+  color: rgb(61,96,150);
+  background-color: rgb(216, 237, 253);
+}
+#intern-list td a{
+  cursor: pointer;
+  color: white;
+  text-decoration: none;
+  background-color: rgb(95, 116, 138);
+  padding: 2px 5px;
+  border-radius: 20px;
+  font-size: 0.8rem;
+
+}
+
+
+
+/* ------------------------------------------INTERN PROFILE------------------------------------- */
+.profile-wrapper{
+  background-color: #f2f2f2;
+  min-height: 100vh;
+  color: rgb(57, 73, 89);
+}
+
+.profile-wrapper h1{
+  text-align: center;
+  margin: 40px 0;
+}
+
+.currnetIntern-info{
+  display: flex;
+  gap: 8rem;
+  align-items: center;
+  background-color: white;
+  border-radius: 8px;
+  overflow: visible;
+  width: 70%;
+  margin: auto;
+  font-size: 1.5rem;
+  font-weight: 600;
+  padding: 0 80px 0 40px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.currnetIntern-info img{
+  height: 180px;
+  aspect-ratio: 1/1;
+  border-radius: 6px;
+  transform: translateY(-20px);
+  left: 10px;
+  object-fit: cover;
+  object-position: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  
+}
+
+.container{
+  background-color: white;
+  width: 70%;
+  margin: 20px auto;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.container h4{
+  margin-bottom: 1rem;
+}
+
