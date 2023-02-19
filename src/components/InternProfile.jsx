@@ -1,4 +1,4 @@
-import { useParams } from "react-router-dom"
+import { Link, useParams } from "react-router-dom"
 import {FaLessThan} from "react-icons/fa"
 import InternList from "./InternList";
 import{useEffect, useState} from 'react'
@@ -24,6 +24,7 @@ function InternProfile({interns}) {
     console.log(currentIntern)
     return (
         <div className = "profile-wrapper">
+            <p id="home"><Link to ="/">Home</Link> </p>
             <h1>Student Profile</h1>
             <div className="currnetIntern-info">
                 <img src={currentIntern.img} alt="" id = "profile-img"/>
