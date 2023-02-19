@@ -30,7 +30,8 @@ const InternData = [
         track: "Frontend",
         img: IMG1,
         group: 1,
-        email: "edwardchukwuebuka@gmail.com"
+        email: "edwardchukwuebuka@gmail.com",
+        phone: "08032917204"
     },
     {
         id: 2,
@@ -39,7 +40,8 @@ const InternData = [
         track: "Backend",
         img: IMG2,
         group: 2,
-        email: "miracleihediwa@gmail.com"
+        email: "miracleihediwa@gmail.com",
+        phone: "09078165432"
     },
     {
         id: 3,
@@ -48,7 +50,8 @@ const InternData = [
         track: "Frontend",
         img: IMG3,
         group: 3,
-        email: "franklinjohn@gmail.com"
+        email: "franklinjohn@gmail.com",
+        phone: "08153689742"
     },
     {
         id: 4,
@@ -57,7 +60,8 @@ const InternData = [
         track: "Web3",
         img: IMG4,
         group: 4,
-        email: "ohiripatrick@gmail.com"
+        email: "ohiripatrick@gmail.com",
+        phone: "07042036581"
     },
     {
         id: 5,
@@ -66,7 +70,8 @@ const InternData = [
         track: "Backend",
         img: IMG5,
         group: 5,
-        email: "ezeuzorchukwudi@gmail.com"
+        email: "ezeuzorchukwudi@gmail.com",
+        phone: "08023090657"
     },
     {
         id: 6,
@@ -75,7 +80,8 @@ const InternData = [
         track: "Web3",
         img: IMG6,
         group: 1,
-        email: "anastasiadeborah@gmail.com"
+        email: "anastasiadeborah@gmail.com",
+        phone: "08144875329"
     },
     {
         id: 7,
@@ -84,7 +90,8 @@ const InternData = [
         track: "Frontend",
         img: IMG7,
         group: 2,
-        email: "edwardginikachukwu@gmail.com"
+        email: "edwardginikachukwu@gmail.com",
+        phone: "07069812453"
     },
     {
         id: 8,
@@ -93,7 +100,8 @@ const InternData = [
         track: "Backend",
         img: IMG8,
         group: 10,
-        email: "preciousyakubu@gmail.com"
+        email: "preciousyakubu@gmail.com",
+        phone: "09020586742"
     },
     {
         id: 9,
@@ -102,7 +110,8 @@ const InternData = [
         track: "Frontend",
         img: IMG9,
         group: 3,
-        email: "orehprincess@gmail.com"
+        email: "orehprincess@gmail.com",
+        phone: "08191476328"
     },
     {
         id: 10,
@@ -111,7 +120,8 @@ const InternData = [
         track: "Web3",
         img: IMG10,
         group: 4,
-        email: "okoyecollins@gmail.com"
+        email: "okoyecollins@gmail.com",
+        phone: "08017654291"
     },
     {
         id: 11,
@@ -120,7 +130,8 @@ const InternData = [
         track: "Backend",
         img: IMG11,
         group: 5,
-        email: "pauldavid@gmail.com"
+        email: "pauldavid@gmail.com",
+        phone: "09087654291"
     },
     {
         id: 12,
@@ -129,7 +140,8 @@ const InternData = [
         track: "Web3",
         img: IMG12,
         group: 6,
-        email: "wasiujohn@gmail.com"
+        email: "wasiujohn@gmail.com",
+        phone: "07060913475"
     },
     {
         id: 13,
@@ -138,7 +150,8 @@ const InternData = [
         track: "Frontend",
         img: IMG13,
         group: 7,
-        email: "beckyada@gmail.com"
+        email: "beckyada@gmail.com",
+        phone: "08051893627"
     },
     {
         id: 14,
@@ -147,7 +160,8 @@ const InternData = [
         track: "Backend",
         img: IMG14,
         group: 8,
-        email: "chidinmasarah@gmail.com"
+        email: "chidinmasarah@gmail.com",
+        phone: "09031945862"
     },
     {
         id: 15,
@@ -156,7 +170,8 @@ const InternData = [
         track: "Frontend",
         img: IMG15,
         group: 9,
-        email: "joyceebube@gmail.com"
+        email: "joyceebube@gmail.com",
+        phone: "08125230796"
     },
     {
         id: 16,
@@ -165,7 +180,8 @@ const InternData = [
         track: "Web3",
         img: IMG16,
         group: 10,
-        email: "babatundemichael@gmail.com"
+        email: "babatundemichael@gmail.com",
+        phone: "07019063425"
     },
     {
         id: 17,
@@ -174,7 +190,8 @@ const InternData = [
         track: "Backend",
         img: IMG17,
         group: 6,
-        email: "desirepearl@gmail.com"
+        email: "desirepearl@gmail.com",
+        phone: "08046589371"
     },
     {
         id: 18,
@@ -183,7 +200,8 @@ const InternData = [
         track: "Web3",
         img: IMG18,
         group: 7,
-        email: "grahampotter@gmail.com"
+        email: "grahampotter@gmail.com",
+        phone: "09064082735"
     },
     {
         id: 19,
@@ -192,7 +210,8 @@ const InternData = [
         track: "Frontend",
         img: IMG19,
         group: 8,
-        email: "abiodunmary@gmail.com"
+        email: "abiodunmary@gmail.com",
+        phone: "08167520938"
     },
     {
         id: 20,
@@ -201,7 +220,8 @@ const InternData = [
         track: "Backend",
         img: IMG20,
         group: 9,
-        email: "aishaveronica@gmail.com"
+        email: "aishaveronica@gmail.com",
+        phone: "07091253681"
     },
 ]
 

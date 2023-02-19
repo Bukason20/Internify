@@ -44,7 +44,7 @@ function InternProfile({interns}) {
             <div className="currnetIntern-no container flex">
                 <div>
                     <h4>Telephone:</h4>
-                    <p>08033099645</p>
+                    <p>{currentIntern.phone}</p>
                 </div>
                 <BsTelephoneFill size = "20"/>
                 
